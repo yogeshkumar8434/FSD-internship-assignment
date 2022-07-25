@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+html,body{
+font-family: 'Lato';
+
+}
+.wrapper {
+  padding: 50px;
+}
+.main{  
+  max-width: 1200px;
+
+  display: block;
+}
+.card {
+   
+    /* max-width: 1200px; */
+    /* float: left;
+    overflow: hidden;
+    width: 50%; 
+    gap: 10px;
+    font-family: 'Lato';
+    padding-top: 30px; */
+     width:500px;
+    height:500px;
+    overflow: hidden;
+    float:left;
+    display:inline;
+    margin:10px 0px 0px 10px;
+    background-color:white; 
+    gap :20px
+
+ 
+    
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 10px 5px 0 10px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot1{
+ 
+  
+  height: 15px;
+  width: 15px;
+  margin: 10px 0 0 0;
+  border-radius:50% ;
+  background-color:brown;
+  display: inline-block;
+  
+
+
+}
+
+.card-body {
+  padding: 2px 16px;
+}
+
+
+
+.card_image {
+  width: 100%;
+  height: 175px;
+  object-fit: cover;
+  display: inline-block;
+  
+}
+
+.card-body {
+  line-height: 1.5;
+  font-size: 0.9em;
+  padding: 15px;
+  background: #fafafa;
+  
+}
+
+
+
+.card_bottomleft {
+  padding: 10px 10px 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  display: inline-block;
+  font-family: 'Lato';
+ 
+}
+
+.card_bottomright  {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  display: inline-block;  
+  font-family: 'Lato';
+  position: absolute;
+  right: 35px;
+ 
+}
+
+
+
+
+
+
